@@ -1,0 +1,35 @@
+16.REVERSE OF A NUMBER
+
+CODE:
+
+
+#include <stdio.h>
+
+void main(){
+    int n,rev;
+    printf("ENTER THE  NUMBER: ");
+    scanf("%d",&n);
+    while(n!=0){
+        rev=n%10;
+        printf("%d",rev);
+        n=n/10;
+    }
+}
+
+
+    
+OUTPUT:1
+
+ENTER THE  NUMBER: 9876
+6789
+
+OUTPUT:2
+
+ENTER THE  NUMBER: 12345
+54321
+
+OUTPUT:3
+
+ENTER THE  NUMBER: 1020
+0201
+
